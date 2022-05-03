@@ -6,6 +6,14 @@
 
 /////////////////////////////////////////////////
 // Data
+
+const account0 = {
+  owner: 'Tom Tank',
+  movements: [210, 230, -430, 300, -6150, -1930, 70, 6300],
+  interestRate: 1.2, // %
+  pin: 1111,
+};
+
 const account1 = {
   owner: 'Jonas Schmedtmann',
   movements: [200, 450, -400, 3000, -650, -130, 70, 1300],
@@ -34,7 +42,7 @@ const account4 = {
   pin: 4444,
 };
 
-const accounts = [account1, account2, account3, account4];
+const accounts = [account0, account1, account2, account3, account4];
 
 /////////////////////////////////////////////////
 // Elements
